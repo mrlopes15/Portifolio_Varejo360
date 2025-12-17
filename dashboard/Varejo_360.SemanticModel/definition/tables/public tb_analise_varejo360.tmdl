@@ -1,0 +1,164 @@
+table 'public tb_analise_varejo360'
+	lineageTag: d564973e-4d7f-449a-8ff7-49901c371846
+
+	measure 'Total Ocorrências' = COUNTROWS('public tb_analise_varejo360')
+		formatString: 0
+		lineageTag: 001ce0bc-653d-435c-ac53-f949eb4a4f7a
+
+	measure 'Ocorrências Negativas' = ```
+			
+			CALCULATE(    
+			    COUNTROWS('public tb_analise_varejo360'),
+			    'public tb_analise_varejo360'[sentimento_ia] = "Negativo"
+			)
+			```
+		formatString: 0
+		lineageTag: e003e3cd-55c7-413f-bd8c-000e9b263647
+
+	measure 'Alertas de Ruptura' =
+			
+			CALCULATE(
+			    COUNTROWS('public tb_analise_varejo360'),
+			    'public tb_analise_varejo360'[alerta_ruptura] = TRUE()
+			)
+		formatString: 0
+		lineageTag: 67e9e48e-73d6-4ddd-820c-a83c4bca4e1c
+
+	measure 'Custo Total (R$)' =
+			
+			SUMX(
+			    'public tb_analise_varejo360',
+			    'public tb_analise_varejo360'[custo_analise] * 5.50
+			)
+		lineageTag: 9e1e6ce0-256d-4765-9b45-375a23880fb1
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure '% Ruptura Virtual' =
+			
+			DIVIDE(
+			    CALCULATE(
+			        COUNTROWS('public tb_analise_varejo360'),
+			        'public tb_analise_varejo360'[alerta_ruptura] = TRUE(),
+			        'public tb_analise_varejo360'[sentimento_ia] = "Negativo"
+			    ),
+			    CALCULATE(
+			        COUNTROWS('public tb_analise_varejo360'),
+			         'public tb_analise_varejo360'[sentimento_ia] = "Negativo"
+			    )
+			)
+		lineageTag: 47bf76ab-af6f-4bfb-b439-d8c46114dddf
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Produtos com Alerta de Ruptura' =
+			
+			CALCULATE(
+			DISTINCTCOUNT('public tb_analise_varejo360'[produto]),
+			FILTER(
+			'public tb_analise_varejo360',
+			'public tb_analise_varejo360'[Alertas de Ruptura] = 1
+			)
+			)
+		formatString: 0
+		lineageTag: 63a8475c-5d44-431a-9d92-09a4b506657f
+
+	column data_ocorrencia
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 991b48ea-ba1a-4aba-9b6d-558936520bfc
+		summarizeBy: none
+		sourceColumn: data_ocorrencia
+
+		variation Variation
+			isDefault
+			relationship: 1cf2dd44-a76a-4c23-b7f7-c76e1a61288b
+			defaultHierarchy: LocalDateTable_4b903c07-37fe-466a-8779-59ed24ddcf4d.'Hierarquia de datas'
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column loja_id
+		dataType: string
+		lineageTag: 4a38d93f-2e58-4362-a606-2f2ef2b93693
+		summarizeBy: none
+		sourceColumn: loja_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column produto
+		dataType: string
+		lineageTag: ac830215-81ec-4f77-9c57-ffa56a4ba4c2
+		summarizeBy: none
+		sourceColumn: produto
+
+		annotation SummarizationSetBy = Automatic
+
+	column estoque_sistema
+		dataType: int64
+		formatString: 0
+		lineageTag: d8fe6e20-f8b5-4469-9259-b329195a4db6
+		summarizeBy: sum
+		sourceColumn: estoque_sistema
+
+		annotation SummarizationSetBy = Automatic
+
+	column comentario
+		dataType: string
+		lineageTag: 4a273824-28ac-455b-92af-ef14cde7b4e2
+		summarizeBy: none
+		sourceColumn: comentario
+
+		annotation SummarizationSetBy = Automatic
+
+	column categoria_ia
+		dataType: string
+		lineageTag: 7f081f76-8da4-4279-ab4d-782a0cbd9f9d
+		summarizeBy: none
+		sourceColumn: categoria_ia
+
+		annotation SummarizationSetBy = Automatic
+
+	column sentimento_ia
+		dataType: string
+		lineageTag: 2d0738ce-f77d-42b0-ae96-48c8d1db486d
+		summarizeBy: none
+		sourceColumn: sentimento_ia
+
+		annotation SummarizationSetBy = Automatic
+
+	column alerta_ruptura
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: aa886262-3340-4807-a07d-b24c4269c067
+		summarizeBy: none
+		sourceColumn: alerta_ruptura
+
+		annotation SummarizationSetBy = Automatic
+
+	column custo_analise
+		dataType: double
+		lineageTag: ecb88235-435d-48a2-a297-56924629a737
+		summarizeBy: sum
+		sourceColumn: custo_analise
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'public tb_analise_varejo360' = m
+		mode: import
+		source =
+				let
+				    Fonte = PostgreSQL.Database("ep-summer-firefly-ahbm1j8w-pooler.c-3.us-east-1.aws.neon.tech", "neondb"),
+				    public_tb_analise_varejo360 = Fonte{[Schema="public",Item="tb_analise_varejo360"]}[Data]
+				in
+				    public_tb_analise_varejo360
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

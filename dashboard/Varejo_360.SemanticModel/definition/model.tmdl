@@ -1,0 +1,20 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["public tb_analise_varejo360"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'public tb_analise_varejo360'
+ref table DateTableTemplate_a8f9aead-637b-439c-9e09-728e516de04f
+ref table LocalDateTable_4b903c07-37fe-466a-8779-59ed24ddcf4d
+
+ref cultureInfo pt-BR
+

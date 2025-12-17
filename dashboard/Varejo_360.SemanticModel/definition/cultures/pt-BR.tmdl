@@ -1,0 +1,1846 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "public_tb_analise_varejo360": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "public tb_analise_varejo360": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360.data_ocorrencia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "ConceptualProperty": "data_ocorrencia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data ocorrencia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data_ocorrencia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information ocorrencia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact ocorrencia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info ocorrencia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic ocorrencia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document ocorrencia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure ocorrencia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record ocorrencia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "public_tb_analise_varejo360.data_ocorrencia.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "VariationSource": "data_ocorrencia",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360.data_ocorrencia.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "VariationSource": "data_ocorrencia",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data ocorrencia ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information ocorrencia ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact ocorrencia ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info ocorrencia ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic ocorrencia ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document ocorrencia ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure ocorrencia ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record ocorrencia ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360.data_ocorrencia.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "VariationSource": "data_ocorrencia",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data ocorrencia trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information ocorrencia trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact ocorrencia trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info ocorrencia trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic ocorrencia trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document ocorrencia trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure ocorrencia trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record ocorrencia trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360.data_ocorrencia.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "VariationSource": "data_ocorrencia",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data ocorrencia mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information ocorrencia mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact ocorrencia mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info ocorrencia mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic ocorrencia mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document ocorrencia mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure ocorrencia mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record ocorrencia mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360.data_ocorrencia.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "VariationSource": "data_ocorrencia",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data ocorrencia dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information ocorrencia dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact ocorrencia dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info ocorrencia dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic ocorrencia dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document ocorrencia dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure ocorrencia dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record ocorrencia dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360.loja_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "ConceptualProperty": "loja_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "loja id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "loja_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "loja": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "loja identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "loja identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "loja identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "loja credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360.produto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "ConceptualProperty": "produto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "produto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360.estoque_sistema": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "ConceptualProperty": "estoque_sistema"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estoque sistema": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "estoque_sistema": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360.comentario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "ConceptualProperty": "comentario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "comentario": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360.categoria_ia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "ConceptualProperty": "categoria_ia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoria ia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "categoria_ia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Categoria": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360.sentimento_ia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "ConceptualProperty": "sentimento_ia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sentimento ia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sentimento_ia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Avaliação": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360.alerta_ruptura": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "ConceptualProperty": "alerta_ruptura"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "alerta ruptura": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "alerta_ruptura": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360.custo_analise": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "ConceptualProperty": "custo_analise"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "custo analise": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "custo_analise": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360.total_ocorrências": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "ConceptualProperty": "Total Ocorrências"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total ocorrências": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate ocorrência": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall ocorrência": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360.ocorrências_negativas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "ConceptualProperty": "Ocorrências Negativas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ocorrências negativas": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360.alertas_de_ruptura": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "ConceptualProperty": "Alertas de Ruptura"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "alertas de ruptura": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360.custo_total_r": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "ConceptualProperty": "Custo Total (R$)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "custo total (r$)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "custo total": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360.ruptura_virtual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "ConceptualProperty": "% Ruptura Virtual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% ruptura virtual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage ruptura virtual": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "pct ruptura virtual": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360.produtos_com_alerta_de_ruptura": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "public tb_analise_varejo360",
+			          "ConceptualProperty": "Produtos com Alerta de Ruptura"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "produtos com alerta de ruptura": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "public_tb_analise_varejo360_data_ocorrencia_hierarquia_de_data_has_public_tb_analise_varejo360_data_ocorrencia_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360.data_ocorrencia.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.data_ocorrencia.hierarquia_de_data"
+			          }
+			        },
+			        "public_tb_analise_varejo360.data_ocorrencia.dia": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.data_ocorrencia.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_data_ocorrencia_hierarquia_de_data_has_public_tb_analise_varejo360_data_ocorrencia_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360.data_ocorrencia.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.data_ocorrencia.hierarquia_de_data"
+			          }
+			        },
+			        "public_tb_analise_varejo360.data_ocorrencia.mê": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.data_ocorrencia.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_data_ocorrencia_hierarquia_de_data_has_public_tb_analise_varejo360_data_ocorrencia_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360.data_ocorrencia.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.data_ocorrencia.hierarquia_de_data"
+			          }
+			        },
+			        "public_tb_analise_varejo360.data_ocorrencia.trimestre": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.data_ocorrencia.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_data_ocorrencia_hierarquia_de_data_has_public_tb_analise_varejo360_data_ocorrencia_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360.data_ocorrencia.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.data_ocorrencia.hierarquia_de_data"
+			          }
+			        },
+			        "public_tb_analise_varejo360.data_ocorrencia.ano": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.data_ocorrencia.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_data_ocorrencia_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360.data_ocorrencia": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.data_ocorrencia"
+			          }
+			        },
+			        "public_tb_analise_varejo360.data_ocorrencia.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.data_ocorrencia.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_ocorrencias_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_has_produtos_com_alerta_de_ruptura": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360"
+			          }
+			        },
+			        "public_tb_analise_varejo360.produtos_com_alerta_de_ruptura": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.produtos_com_alerta_de_ruptura"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.produtos_com_alerta_de_ruptura"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_tb_analise_varejo360_have_produtos_com_alerta_de_ruptura"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_has_ruptura_virtual": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360"
+			          }
+			        },
+			        "public_tb_analise_varejo360.ruptura_virtual": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.ruptura_virtual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.ruptura_virtual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_tb_analise_varejo360_have__ruptura_virtual"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_has_custo_total_r": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360"
+			          }
+			        },
+			        "public_tb_analise_varejo360.custo_total_r": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.custo_total_r"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.custo_total_r"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_tb_analise_varejo360_have_custo_total_r"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_has_alertas_de_ruptura": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360"
+			          }
+			        },
+			        "public_tb_analise_varejo360.alertas_de_ruptura": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.alertas_de_ruptura"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.alertas_de_ruptura"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_tb_analise_varejo360_have_alertas_de_ruptura"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_has_ocorrências_negativas": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360"
+			          }
+			        },
+			        "public_tb_analise_varejo360.ocorrências_negativas": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.ocorrências_negativas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.ocorrências_negativas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_tb_analise_varejo360_have_ocorrências_negativas"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_has_total_ocorrências": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360"
+			          }
+			        },
+			        "public_tb_analise_varejo360.total_ocorrências": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.total_ocorrências"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.total_ocorrências"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_tb_analise_varejo360_have_total_ocorrências"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_has_custo_analise": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360"
+			          }
+			        },
+			        "public_tb_analise_varejo360.custo_analise": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.custo_analise"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.custo_analise"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_tb_analise_varejo360_have_custo_analises"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_has_alerta_ruptura": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360"
+			          }
+			        },
+			        "public_tb_analise_varejo360.alerta_ruptura": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.alerta_ruptura"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.alerta_ruptura"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_tb_analise_varejo360_have_alerta_rupturas"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_has_sentimento_ia": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360"
+			          }
+			        },
+			        "public_tb_analise_varejo360.sentimento_ia": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.sentimento_ia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.sentimento_ia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_tb_analise_varejo360_have_sentimento_ia"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_has_categoria_ia": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360"
+			          }
+			        },
+			        "public_tb_analise_varejo360.categoria_ia": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.categoria_ia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.categoria_ia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_tb_analise_varejo360_have_categoria_ia"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_has_comentario": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360"
+			          }
+			        },
+			        "public_tb_analise_varejo360.comentario": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.comentario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.comentario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_tb_analise_varejo360_have_comentarios"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_has_estoque_sistema": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360"
+			          }
+			        },
+			        "public_tb_analise_varejo360.estoque_sistema": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.estoque_sistema"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.estoque_sistema"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_tb_analise_varejo360_have_estoque_sistemas"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_has_produto": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360"
+			          }
+			        },
+			        "public_tb_analise_varejo360.produto": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.produto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.produto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_tb_analise_varejo360_have_produtos"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_has_loja_id": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360"
+			          }
+			        },
+			        "public_tb_analise_varejo360.loja_id": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.loja_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.loja_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_tb_analise_varejo360_have_loja_ids"
+			        },
+			        {
+			          "DynamicAdjective": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360"
+			            },
+			            "Adjective": {
+			              "Role": "public_tb_analise_varejo360.loja_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "loja_ids_describe_public_tb_analise_varejo360"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_has_data_ocorrencia": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360"
+			          }
+			        },
+			        "public_tb_analise_varejo360.data_ocorrencia": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.data_ocorrencia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "public_tb_analise_varejo360_have_data_ocorrencias"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_data_ocorrencia_ano_has_public_tb_analise_varejo360_data_ocorrencia_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360.data_ocorrencia.ano": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.data_ocorrencia.ano"
+			          }
+			        },
+			        "public_tb_analise_varejo360.data_ocorrencia.trimestre": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.data_ocorrencia.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.ano"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.trimestre"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_data_ocorrencia_trimestre_has_public_tb_analise_varejo360_data_ocorrencia_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360.data_ocorrencia.trimestre": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.data_ocorrencia.trimestre"
+			          }
+			        },
+			        "public_tb_analise_varejo360.data_ocorrencia.mê": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.data_ocorrencia.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.trimestre"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.mê"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "public_tb_analise_varejo360_data_ocorrencia_mê_has_public_tb_analise_varejo360_data_ocorrencia_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "public tb_analise_varejo360"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "public_tb_analise_varejo360.data_ocorrencia.mê": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.data_ocorrencia.mê"
+			          }
+			        },
+			        "public_tb_analise_varejo360.data_ocorrencia.dia": {
+			          "Target": {
+			            "Entity": "public_tb_analise_varejo360.data_ocorrencia.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.mê"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.dia"
+			            },
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "public_tb_analise_varejo360.data_ocorrencia.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

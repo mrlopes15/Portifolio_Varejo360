@@ -1,0 +1,5 @@
+relationship 1cf2dd44-a76a-4c23-b7f7-c76e1a61288b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'public tb_analise_varejo360'.data_ocorrencia
+	toColumn: LocalDateTable_4b903c07-37fe-466a-8779-59ed24ddcf4d.Date
+

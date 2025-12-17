@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Varejo_360"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7b12b098-d9c7-4209-abb7-39de39eb8f94"
+  }
+}
