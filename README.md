@@ -187,6 +187,6 @@ requirements.txt
 
 ## 13. Autor
 
-* **[Matheus Rodrigues Lopes]**
+**Matheus Rodrigues Lopes**
 * **LinkedIn: [ https://www.linkedin.com/in/matheuslopesr/]**
 * **GitHub: [ https://github.com/mrlopes15]**
